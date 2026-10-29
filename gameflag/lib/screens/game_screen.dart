@@ -13,12 +13,9 @@ class GameScreen extends StatefulWidget {
 }
 
 class _GameScreenState extends State<GameScreen> {
-  Country?
-  _selectedAnswer; // Guarda a opção clicada para controlar o feedback de cores
-  bool _isAnswered =
-      false; // Bloqueia novos cliques enquanto exibe o acerto/erro
+  Country? _selectedAnswer;
+  bool _isAnswered = false;
 
-  /// Lida com a seleção da resposta, exibindo feedback colorido antes da próxima pergunta
   void _handleOptionClick(GameProvider provider, Country selected) {
     if (_isAnswered) return;
 
@@ -29,12 +26,10 @@ class _GameScreenState extends State<GameScreen> {
 
     provider.checkAnswer(selected);
 
-    // Pequeno atraso (700ms) para que o jogador veja se acertou (verde) ou errou (vermelho)
     Future.delayed(const Duration(milliseconds: 700), () {
       if (!mounted) return;
 
       if (provider.isGameOver) {
-        // Redireciona para a ResultScreen se o tempo tiver acabado
         Navigator.pushReplacement(
           context,
           MaterialPageRoute(builder: (_) => const ResultScreen()),
@@ -49,16 +44,15 @@ class _GameScreenState extends State<GameScreen> {
     });
   }
 
-  /// Retorna a cor do botão da opção: Verde (correta), Vermelho (erro) ou Padrão
   Color _getButtonColor(Country option, Country correct) {
     if (!_isAnswered) {
       return Theme.of(context).colorScheme.surfaceContainerHighest;
     }
     if (option.name == correct.name) {
-      return Colors.green.shade400; // Opção correta sempre acende em verde
+      return Colors.green.shade400;
     }
     if (option.name == _selectedAnswer?.name) {
-      return Colors.red.shade400; // Opção incorreta clicada acende em vermelho
+      return Colors.red.shade400;
     }
     return Theme.of(context).colorScheme.surfaceContainerHighest;
   }
@@ -66,8 +60,8 @@ class _GameScreenState extends State<GameScreen> {
   @override
   Widget build(BuildContext context) {
     final provider = Provider.of<GameProvider>(context);
+    final String lang = provider.selectedLanguage;
 
-    // Caso o timer zere no provider, redireciona automaticamente para a tela de resultado
     if (provider.isGameOver) {
       WidgetsBinding.instance.addPostFrameCallback((_) {
         Navigator.pushReplacement(
@@ -85,8 +79,7 @@ class _GameScreenState extends State<GameScreen> {
           '${provider.getText('time_left')}: ${provider.remainingTime}s',
         ),
         centerTitle: true,
-        automaticallyImplyLeading:
-            false, // Oculta o botão voltar nativo durante a partida
+        automaticallyImplyLeading: false,
         actions: [
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16.0),
@@ -108,7 +101,6 @@ class _GameScreenState extends State<GameScreen> {
               padding: const EdgeInsets.all(16.0),
               child: Column(
                 children: [
-                  // Barra visual do progresso do tempo restante
                   LinearProgressIndicator(
                     value: provider.remainingTime / provider.selectedDuration,
                     color: provider.remainingTime <= 5
@@ -116,8 +108,6 @@ class _GameScreenState extends State<GameScreen> {
                         : Colors.indigo,
                   ),
                   const SizedBox(height: 20),
-
-                  // Container de Exibição da Bandeira do País
                   Expanded(
                     child: Container(
                       decoration: BoxDecoration(
@@ -132,8 +122,7 @@ class _GameScreenState extends State<GameScreen> {
                         child: Image.network(
                           currentCountry.flagUrl,
                           fit: BoxFit.contain,
-                          gaplessPlayback:
-                              true, // Mantém a imagem visível até a próxima carregar sem piscar
+                          gaplessPlayback: true,
                           loadingBuilder: (context, child, loadingProgress) {
                             if (loadingProgress == null) return child;
                             return const Center(
@@ -149,8 +138,6 @@ class _GameScreenState extends State<GameScreen> {
                     ),
                   ),
                   const SizedBox(height: 20),
-
-                  // Mapeia e renderiza os 4 botões de opções de resposta
                   ...provider.options.map((option) {
                     final isCorrect = currentCountry.name == option.name;
                     return Padding(
@@ -175,12 +162,11 @@ class _GameScreenState extends State<GameScreen> {
                             children: [
                               Expanded(
                                 child: Text(
-                                  option.name,
+                                  option.getName(lang),
                                   style: const TextStyle(fontSize: 16),
                                   overflow: TextOverflow.ellipsis,
                                 ),
                               ),
-                              // Ícone visual indicando o acerto ou erro
                               if (_isAnswered && isCorrect)
                                 const Icon(
                                   Icons.check_circle,
