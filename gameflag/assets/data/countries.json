@@ -1,0 +1,412 @@
+[
+    {
+        "name": "Brasil",
+        "region": "América",
+        "flagUrl": "https://flagcdn.com/w320/br.png"
+    },
+    {
+        "name": "Argentina",
+        "region": "América",
+        "flagUrl": "https://flagcdn.com/w320/ar.png"
+    },
+    {
+        "name": "Estados Unidos",
+        "region": "América",
+        "flagUrl": "https://flagcdn.com/w320/us.png"
+    },
+    {
+        "name": "Canadá",
+        "region": "América",
+        "flagUrl": "https://flagcdn.com/w320/ca.png"
+    },
+    {
+        "name": "México",
+        "region": "América",
+        "flagUrl": "https://flagcdn.com/w320/mx.png"
+    },
+    {
+        "name": "Colômbia",
+        "region": "América",
+        "flagUrl": "https://flagcdn.com/w320/co.png"
+    },
+    {
+        "name": "Chile",
+        "region": "América",
+        "flagUrl": "https://flagcdn.com/w320/cl.png"
+    },
+    {
+        "name": "Uruguai",
+        "region": "América",
+        "flagUrl": "https://flagcdn.com/w320/uy.png"
+    },
+    {
+        "name": "Paraguai",
+        "region": "América",
+        "flagUrl": "https://flagcdn.com/w320/py.png"
+    },
+    {
+        "name": "Peru",
+        "region": "América",
+        "flagUrl": "https://flagcdn.com/w320/pe.png"
+    },
+    {
+        "name": "Bolívia",
+        "region": "América",
+        "flagUrl": "https://flagcdn.com/w320/bo.png"
+    },
+    {
+        "name": "Equador",
+        "region": "América",
+        "flagUrl": "https://flagcdn.com/w320/ec.png"
+    },
+    {
+        "name": "Venezuela",
+        "region": "América",
+        "flagUrl": "https://flagcdn.com/w320/ve.png"
+    },
+    {
+        "name": "Cuba",
+        "region": "América",
+        "flagUrl": "https://flagcdn.com/w320/cu.png"
+    },
+    {
+        "name": "Costa Rica",
+        "region": "América",
+        "flagUrl": "https://flagcdn.com/w320/cr.png"
+    },
+    {
+        "name": "Panamá",
+        "region": "América",
+        "flagUrl": "https://flagcdn.com/w320/pa.png"
+    },
+    {
+        "name": "Jamaica",
+        "region": "América",
+        "flagUrl": "https://flagcdn.com/w320/jm.png"
+    },
+    {
+        "name": "Haiti",
+        "region": "América",
+        "flagUrl": "https://flagcdn.com/w320/ht.png"
+    },
+    {
+        "name": "República Dominicana",
+        "region": "América",
+        "flagUrl": "https://flagcdn.com/w320/do.png"
+    },
+    {
+        "name": "Honduras",
+        "region": "América",
+        "flagUrl": "https://flagcdn.com/w320/hn.png"
+    },
+    {
+        "name": "Guatemala",
+        "region": "América",
+        "flagUrl": "https://flagcdn.com/w320/gt.png"
+    },
+    {
+        "name": "Alemanha",
+        "region": "Europa",
+        "flagUrl": "https://flagcdn.com/w320/de.png"
+    },
+    {
+        "name": "França",
+        "region": "Europa",
+        "flagUrl": "https://flagcdn.com/w320/fr.png"
+    },
+    {
+        "name": "Itália",
+        "region": "Europa",
+        "flagUrl": "https://flagcdn.com/w320/it.png"
+    },
+    {
+        "name": "Espanha",
+        "region": "Europa",
+        "flagUrl": "https://flagcdn.com/w320/es.png"
+    },
+    {
+        "name": "Portugal",
+        "region": "Europa",
+        "flagUrl": "https://flagcdn.com/w320/pt.png"
+    },
+    {
+        "name": "Reino Unido",
+        "region": "Europa",
+        "flagUrl": "https://flagcdn.com/w320/gb.png"
+    },
+    {
+        "name": "Holanda",
+        "region": "Europa",
+        "flagUrl": "https://flagcdn.com/w320/nl.png"
+    },
+    {
+        "name": "Suíça",
+        "region": "Europa",
+        "flagUrl": "https://flagcdn.com/w320/ch.png"
+    },
+    {
+        "name": "Bélgica",
+        "region": "Europa",
+        "flagUrl": "https://flagcdn.com/w320/be.png"
+    },
+    {
+        "name": "Áustria",
+        "region": "Europa",
+        "flagUrl": "https://flagcdn.com/w320/at.png"
+    },
+    {
+        "name": "Grécia",
+        "region": "Europa",
+        "flagUrl": "https://flagcdn.com/w320/gr.png"
+    },
+    {
+        "name": "Suécia",
+        "region": "Europa",
+        "flagUrl": "https://flagcdn.com/w320/se.png"
+    },
+    {
+        "name": "Noruega",
+        "region": "Europa",
+        "flagUrl": "https://flagcdn.com/w320/no.png"
+    },
+    {
+        "name": "Dinamarca",
+        "region": "Europa",
+        "flagUrl": "https://flagcdn.com/w320/dk.png"
+    },
+    {
+        "name": "Finlândia",
+        "region": "Europa",
+        "flagUrl": "https://flagcdn.com/w320/fi.png"
+    },
+    {
+        "name": "Polônia",
+        "region": "Europa",
+        "flagUrl": "https://flagcdn.com/w320/pl.png"
+    },
+    {
+        "name": "Rússia",
+        "region": "Europa",
+        "flagUrl": "https://flagcdn.com/w320/ru.png"
+    },
+    {
+        "name": "Ucrânia",
+        "region": "Europa",
+        "flagUrl": "https://flagcdn.com/w320/ua.png"
+    },
+    {
+        "name": "Croácia",
+        "region": "Europa",
+        "flagUrl": "https://flagcdn.com/w320/hr.png"
+    },
+    {
+        "name": "Irlanda",
+        "region": "Europa",
+        "flagUrl": "https://flagcdn.com/w320/ie.png"
+    },
+    {
+        "name": "República Tcheca",
+        "region": "Europa",
+        "flagUrl": "https://flagcdn.com/w320/cz.png"
+    },
+    {
+        "name": "Hungria",
+        "region": "Europa",
+        "flagUrl": "https://flagcdn.com/w320/hu.png"
+    },
+    {
+        "name": "Romênia",
+        "region": "Europa",
+        "flagUrl": "https://flagcdn.com/w320/ro.png"
+    },
+    {
+        "name": "Angola",
+        "region": "África",
+        "flagUrl": "https://flagcdn.com/w320/ao.png"
+    },
+    {
+        "name": "Moçambique",
+        "region": "África",
+        "flagUrl": "https://flagcdn.com/w320/mz.png"
+    },
+    {
+        "name": "Egito",
+        "region": "África",
+        "flagUrl": "https://flagcdn.com/w320/eg.png"
+    },
+    {
+        "name": "África do Sul",
+        "region": "África",
+        "flagUrl": "https://flagcdn.com/w320/za.png"
+    },
+    {
+        "name": "Nigéria",
+        "region": "África",
+        "flagUrl": "https://flagcdn.com/w320/ng.png"
+    },
+    {
+        "name": "Marrocos",
+        "region": "África",
+        "flagUrl": "https://flagcdn.com/w320/ma.png"
+    },
+    {
+        "name": "Gana",
+        "region": "África",
+        "flagUrl": "https://flagcdn.com/w320/gh.png"
+    },
+    {
+        "name": "Quênia",
+        "region": "África",
+        "flagUrl": "https://flagcdn.com/w320/ke.png"
+    },
+    {
+        "name": "Sessentão/Senegal",
+        "region": "África",
+        "flagUrl": "https://flagcdn.com/w320/sn.png"
+    },
+    {
+        "name": "Camarões",
+        "region": "África",
+        "flagUrl": "https://flagcdn.com/w320/cm.png"
+    },
+    {
+        "name": "Costa do Marfim",
+        "region": "África",
+        "flagUrl": "https://flagcdn.com/w320/ci.png"
+    },
+    {
+        "name": "Argélia",
+        "region": "África",
+        "flagUrl": "https://flagcdn.com/w320/dz.png"
+    },
+    {
+        "name": "Tunísia",
+        "region": "África",
+        "flagUrl": "https://flagcdn.com/w320/tn.png"
+    },
+    {
+        "name": "Etiópia",
+        "region": "África",
+        "flagUrl": "https://flagcdn.com/w320/et.png"
+    },
+    {
+        "name": "Cabo Verde",
+        "region": "África",
+        "flagUrl": "https://flagcdn.com/w320/cv.png"
+    },
+    {
+        "name": "Madagascar",
+        "region": "África",
+        "flagUrl": "https://flagcdn.com/w320/mg.png"
+    },
+    {
+        "name": "Japão",
+        "region": "Ásia",
+        "flagUrl": "https://flagcdn.com/w320/jp.png"
+    },
+    {
+        "name": "China",
+        "region": "Ásia",
+        "flagUrl": "https://flagcdn.com/w320/cn.png"
+    },
+    {
+        "name": "Coreia do Sul",
+        "region": "Ásia",
+        "flagUrl": "https://flagcdn.com/w320/kr.png"
+    },
+    {
+        "name": "Índia",
+        "region": "Ásia",
+        "flagUrl": "https://flagcdn.com/w320/in.png"
+    },
+    {
+        "name": "Arábia Saudita",
+        "region": "Ásia",
+        "flagUrl": "https://flagcdn.com/w320/sa.png"
+    },
+    {
+        "name": "Emirados Árabes Unidos",
+        "region": "Ásia",
+        "flagUrl": "https://flagcdn.com/w320/ae.png"
+    },
+    {
+        "name": "Catar",
+        "region": "Ásia",
+        "flagUrl": "https://flagcdn.com/w320/qa.png"
+    },
+    {
+        "name": "Tailândia",
+        "region": "Ásia",
+        "flagUrl": "https://flagcdn.com/w320/th.png"
+    },
+    {
+        "name": "Indonésia",
+        "region": "Ásia",
+        "flagUrl": "https://flagcdn.com/w320/id.png"
+    },
+    {
+        "name": "Vietnã",
+        "region": "Ásia",
+        "flagUrl": "https://flagcdn.com/w320/vn.png"
+    },
+    {
+        "name": "Filipinas",
+        "region": "Ásia",
+        "flagUrl": "https://flagcdn.com/w320/ph.png"
+    },
+    {
+        "name": "Turquia",
+        "region": "Ásia",
+        "flagUrl": "https://flagcdn.com/w320/tr.png"
+    },
+    {
+        "name": "Israel",
+        "region": "Ásia",
+        "flagUrl": "https://flagcdn.com/w320/il.png"
+    },
+    {
+        "name": "Paquistão",
+        "region": "Ásia",
+        "flagUrl": "https://flagcdn.com/w320/pk.png"
+    },
+    {
+        "name": "Austrália",
+        "region": "Oceania",
+        "flagUrl": "https://flagcdn.com/w320/au.png"
+    },
+    {
+        "name": "Nova Zelândia",
+        "region": "Oceania",
+        "flagUrl": "https://flagcdn.com/w320/nz.png"
+    },
+    {
+        "name": "Fiji",
+        "region": "Oceania",
+        "flagUrl": "https://flagcdn.com/w320/fj.png"
+    },
+    {
+        "name": "Papua Nova Guiné",
+        "region": "Oceania",
+        "flagUrl": "https://flagcdn.com/w320/pg.png"
+    },
+    {
+        "name": "Samoa",
+        "region": "Oceania",
+        "flagUrl": "https://flagcdn.com/w320/ws.png"
+    },
+    {
+        "name": "Tonga",
+        "region": "Oceania",
+        "flagUrl": "https://flagcdn.com/w320/to.png"
+    },
+    {
+        "name": "Vanuatu",
+        "region": "Oceania",
+        "flagUrl": "https://flagcdn.com/w320/vu.png"
+    },
+    {
+        "name": "Ilhas Salomão",
+        "region": "Oceania",
+        "flagUrl": "https://flagcdn.com/w320/sb.png"
+    }
+]
