@@ -46,6 +46,8 @@ lib/
 Como Executar o Projeto
 Pré-requisitos: Ter o SDK do Flutter instalado e configurado na máquina.
 
-Clonar o repositório: git clone git clone [https://github.com/SEU_USUARIO/gameflag.git](https://github.com/SEU_USUARIO/gameflag.git)
+Clonar o repositório: git clone git clone https://github.com/Adielsom/GameFlag.git)
+----
 cd gameflag
+---
 Instalar as dependências: flutter pub get
