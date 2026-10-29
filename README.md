@@ -51,3 +51,6 @@ Clonar o repositório: git clone git clone https://github.com/Adielsom/GameFlag.
 cd gameflag
 ---
 Instalar as dependências: flutter pub get
+---
+
+LINK PARA VIDEO NO YOUTUBE, JOGANDO GAME FLAG: https://www.youtube.com/watch?v=PNPTMijePhA
